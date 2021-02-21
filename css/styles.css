@@ -1,0 +1,142 @@
+body {
+  margin-left: 300px;
+  margin-right: 300px;
+  background-image: linear-gradient( 99.9deg, rgba(27,24,31,1) 21.2%, rgba(50,4,89,1) 84.8% );
+  font-family: 'Roboto', sans-serif;
+}
+
+.topics {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-top: 30px;
+  margin-bottom: 20px;
+}
+
+.topic {
+  height: 22px;
+  width: 150px;
+  background-color: #470563;
+  color: white;
+  text-align:center;
+}
+
+.photo-name{
+  background-color: #470563;
+  color: white;
+  text-align:center;
+  position: absolute;
+  top: 20%;
+  left: 20%;
+}
+
+.photo-sciname{
+  background-color: #470563;
+  color: white;
+  text-align:center;
+  position: absolute;
+  top: 24%;
+  left: 20%;
+}
+
+.general-description {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.main-photo {
+  background-color: antiquewhite;
+  width: 600px;
+  height: 275px;
+}
+
+.description {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 275px;
+  width: 300px;
+}
+
+.details {
+  height: 125px;
+  background-color: #470563;
+  color: white;
+  text-align:center;
+}
+
+.types {
+  display: grid;
+  gap: 1rem;
+  grid-auto-flow: column;
+  justify-items: stretch;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.type {
+  background-color: #5c1053;
+  width: 215px;
+  height: 110px;
+  color: white;
+  text-align:center;
+}
+
+.explanation {
+  width: 100%;
+  height: 275px;
+  background-color: blueviolet;
+}
+
+.decorations {
+  display: flex;
+  justify-content: space-around;
+}
+
+.decoration {
+  background-color: wheat;
+  width: 300px;
+  height: 30px;
+  margin: 20px;
+}
+
+.text {
+  background-color: aquamarine;
+  width: 100px;
+  height: 30px;
+  margin: 20px;
+}
+
+.images {
+  display: grid;
+  grid-template-columns: 20% 20% 20% 20% 20%;
+  grid-template-rows: 20% 20% 20% 20% 20%;
+  column-gap: 10px;
+  row-gap: 80px;
+  margin-bottom: 20px;
+}
+
+.image {
+  background-color: lightcoral;
+  width: 150px;
+  height: 150px;
+}
+
+.title{
+  margin: 42px;
+}
+
+.subtitle{
+  margin: 30px;
+}
+
+.logo{
+  width: 60px;
+  height: 60px;
+  color: white;
+  display:block;
+    margin:auto;
+}
+
+
