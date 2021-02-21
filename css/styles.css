@@ -1,15 +1,15 @@
 body {
-  margin-left: 300px;
-  margin-right: 300px;
+  margin-left: 20%;
+  margin-right: 20%;
   background-image: linear-gradient( 99.9deg, rgba(27, 24, 31, 1) 21.2%, rgba(50, 4, 89, 1) 84.8%);
   font-family: 'Roboto', sans-serif;
+  margin-top: 2%;
 }
 
 .topics {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  margin-top: 30px;
+  display: grid;
+  grid-template-columns: 20% 20% 20% 20% 20%;
+  column-gap: 10px;
   margin-bottom: 20px;
 }
 
@@ -40,27 +40,25 @@ body {
 }
 
 .general-description {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
+  display: grid;
+  grid-template-columns: 60% 40%;
+  column-gap: 10px;
+  margin-bottom: 20px;
 }
 
 .main-photo {
-  background-color: antiquewhite;
-  width: 600px;
   height: 275px;
 }
 
 .description {
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
+  display: grid;
+  row-gap: 10px;
   height: 275px;
-  width: 300px;
+  width: 100%;
 }
 
 .details {
-  height: 125px;
+  display: grid;
   background-color: #470563;
   color: white;
   text-align: center;
@@ -68,9 +66,8 @@ body {
 
 .types {
   display: grid;
-  gap: 1rem;
-  grid-auto-flow: column;
-  justify-items: stretch;
+  grid-template-columns: 25% 25% 25% 25%;
+  gap: 8px;
   margin-top: 20px;
   margin-bottom: 20px;
 }
@@ -84,12 +81,13 @@ body {
 }
 
 .explanation {
+  display: grid;
   width: 100%;
   height: 200px;
   background-color: #001b59;
   color: white;
-  padding-top: 3%;
-  padding-bottom: 3%;
+  padding: 1%;
+  text-align: justify;
 }
 
 .decorations {
@@ -137,7 +135,7 @@ body {
 }
 
 .title {
-  margin: 42px;
+  margin: 30px;
 }
 
 .subtitle {
