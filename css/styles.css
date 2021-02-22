@@ -6,6 +6,10 @@ body {
   margin-top: 2%;
 }
 
+a, a:hover, a:active, a:visited { 
+  color: white; 
+}
+
 .topics {
   display: grid;
   grid-template-columns: 20% 20% 20% 20% 20%;
@@ -48,6 +52,7 @@ body {
 
 .main-photo {
   height: 275px;
+  width: 100%;
 }
 
 .description {
