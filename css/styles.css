@@ -25,6 +25,10 @@ a, a:hover, a:active, a:visited {
   text-align: center;
 }
 
+.topic:hover{
+  background-color: #6f029e;
+}
+
 .photo-name {
   background-color: #470563;
   color: white;
